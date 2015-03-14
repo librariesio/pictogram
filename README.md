@@ -25,7 +25,7 @@ A simple service to map human concepts to pictures.
 ```json
 {
    "name": "ruby",
-   "file: "ruby/ruby.png",
+   "file": "ruby/ruby.png",
    "source": {
      "url": "https://avatars0.githubusercontent.com/u/210414?v=3&s=200",
      "referrer": "https://github.com/ruby",
