@@ -22,7 +22,7 @@ Create a new pictogram entry for a name or serve up what have.
  # grab the org image from github
  picto gh <name> <org>
 
- # TODO: Serve up the data dir on port
+ # Serve up the data dir on port
  picto serve -p 8080
 ```
 
@@ -30,6 +30,8 @@ Create a new pictogram entry for a name or serve up what have.
 
 const pictogram = require('./pictogram')
 const gh = require('./gh')
+var http = require('http')
+const ecstatic = require('ecstatic')
 const cli = require('nomnom')
 
 cli.command('gh').options({
@@ -71,5 +73,19 @@ cli.command('grab').options({
     help: 'to hell with the consequences'
   }
 }).callback(pictogram)
+
+cli.command('serve').options({
+  port: {
+    abbr: 'p',
+    position: 1,
+    help: 'serve up the pictogram'
+  }
+}).callback(function(opts){
+  var port = opts.port || 1337
+  http.createServer(
+    ecstatic({ root: __dirname + '/../data' })
+  ).listen(port);
+  console.log('Serving pictograms on :' + port)
+})
 
 cli.parse();
