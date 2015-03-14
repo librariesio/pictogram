@@ -1,0 +1,34 @@
+{
+  "name": "python",
+  "source": {
+    "url": "https://avatars2.githubusercontent.com/u/1525981?v=3&s=200",
+    "referrer": "https://github.com/python",
+    "headers": {
+      "date": "Sat, 14 Mar 2015 13:18:13 GMT",
+      "server": "Apache",
+      "access-control-allow-origin": "*",
+      "cache-control": "max-age=300",
+      "content-security-policy": "default-src 'none'",
+      "content-type": "image/png",
+      "last-modified": "Mon, 12 Mar 2012 18:57:22 GMT",
+      "strict-transport-security": "max-age=31557600",
+      "timing-allow-origin": "https://github.com",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "deny",
+      "x-github-request-id": "5922ba73-ca4c-11e4-8b93-84949d58bf04",
+      "x-xss-protection": "1; mode=block",
+      "host": "avatars.githubusercontent.com",
+      "content-length": "20746",
+      "accept-ranges": "bytes",
+      "via": "1.1 varnish",
+      "x-served-by": "cache-lhr6329-LHR",
+      "x-cache": "HIT",
+      "x-cache-hits": "1",
+      "expires": "Sat, 14 Mar 2015 13:23:13 GMT",
+      "source-age": "95",
+      "vary": "AuthorizationAccept-Encoding",
+      "keep-alive": "timeout=10, max=50",
+      "connection": "Keep-Alive"
+    }
+  }
+}
