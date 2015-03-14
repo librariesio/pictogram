@@ -12,7 +12,6 @@ module.exports = function (opts) {
   async.waterfall([
     mkdir.bind(null, opts),
     fetchImage,
-    writeImage,
     writeMeta
   ], function (err, res) {
     if (err) return console.error(err.message || err)
@@ -33,24 +32,26 @@ function mkdir (opts, cb) {
 }
 
 function fetchImage (filepath, opts, cb) {
-  request(opts.url)
+  var tmpFile =  path.join(filepath, opts.name + '.tmp')
+  var dest = fs.createWriteStream(tmpFile)
+  dest.on('error', cb)
+  dest.on('finish', function (err) {
+    // mv tmp file
+    var type = opts.headers['content-type'] // eugh... this magic bean was set on during the `response` event
+    var ext = (type && type.split('/')[1]) || 'png'
+    var filename = opts.name + '.' + ext
+    opts.file = path.join(opts.name, filename)
+    fs.rename(tmpFile, path.join(filepath, filename), function () {
+      cb(err, filepath, opts)
+    })
+  })
+
+  var src = request(opts.url)
     .on('error', cb)
     .on('response', function(resp) {
       opts.headers = resp.headers
-      cb(null, resp, filepath, opts)
     })
-}
 
-function writeImage (src, filepath, opts, cb) {
-  var type = opts.headers['content-type']
-  var ext = (type && type.split('/')[1]) || 'png'
-  var filename = opts.name + '.' + ext
-  opts.file = path.join(opts.name, filename)
-  var dest = fs.createWriteStream(path.join(filepath, filename))
-  dest.on('error', cb)
-  dest.on('finish', function (err) {
-    cb(err, filepath, opts)
-  })
   src.pipe(dest)
 }
 
