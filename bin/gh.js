@@ -7,7 +7,7 @@ const cheerio = require('cheerio')
 
 module.exports = function (opts) {
   fetchOrgPage(opts, function (err, opts) {
-    if (err) return console.err(err)
+    if (err) return console.error(err.message || err)
     pictogram(opts)
   })
 }
@@ -21,6 +21,7 @@ function fetchOrgPage (opts, cb) {
     var $ = cheerio.load(body)
     var avatar = $('.org-header .avatar')
     opts.url = avatar.attr('src')
+    if (!opts.url) return cb(new Error('No github org found for ' + org))
     cb(null, opts)
   })
 }
