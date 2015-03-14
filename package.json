@@ -13,7 +13,8 @@
   },
   "main": "data/index.js",
   "bin": {
-    "pictogram": "bin/cli.js"
+    "pictogram": "bin/cli.js",
+    "picto": "bin/cli.js"
   },
   "scripts": {
     "test": "node test/data.spec.js"
