@@ -1,21 +1,33 @@
+/*
+
+              _        __
+       ___   (_) ____ / /_ ___   ___ _  ____ ___ _  __ _
+      / _ \ / / / __// __// _ \ / _ `/ / __// _ `/ /  ' \
+     / .__//_/  \__/ \__/ \___/ \_, / /_/   \_,_/ /_/_/_/
+    /_/                        /___/
+
+                 A pictorial symbol for a word or phrase.
+
+                                  A libraries.io project.
+
+ - check if dir
+ - make if false or force
+ - fetch url
+ - write name + headers + source
+ */
 const fs = require('fs')
 const path = require('path')
 const async = require('async')
 const request = require('request')
-
-// check if dir
-// make if false or force
-// fetch url
-// write name + headers + source
 
 module.exports = function (opts) {
   async.waterfall([
     mkdir.bind(null, opts),
     fetchImage,
     writeMeta
-  ], function (err, res) {
+  ], function (err, filepath, opts) {
     if (err) return console.error(err.message || err)
-    console.log('ok')
+    console.log('Created pictogram for %s in %s', opts.name, opts.file)
   })
 }
 
@@ -24,7 +36,7 @@ function mkdir (opts, cb) {
   filepath = path.normalize(filepath)
   if(fs.existsSync(filepath)) {
     if (opts.force) return cb(null, filepath, opts)
-    return cb(new Error('Directory exists. Use -f to force. ' + filepath))
+    return cb(new Error(opts.name + ' directory exists. Use -f to force. '))
   }
   fs.mkdir(filepath, function(err) {
     cb(err, filepath, opts)
@@ -69,6 +81,8 @@ function writeMeta (filepath, opts, cb) {
     path.join(filepath, filename),
     JSON.stringify(meta, null, 2),
     "utf8",
-    cb
+    function (err, res) {
+      cb(err, filepath, opts)
+    }
   )
 }
