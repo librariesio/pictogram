@@ -1,0 +1,79 @@
+.pictogram {
+  width:40px;
+  height:40px;
+  background: transparent no-repeat;
+  background-size: 100%;
+}
+.pictogram-lg {
+  width:60px;
+  height:60px;
+}
+.pictogram-.DS_Store {
+  background-image: url(http://librariesio.github.io/pictogram/data/.DS_Store/.DS_Store.png)
+}
+.pictogram-bower {
+  background-image: url(http://librariesio.github.io/pictogram/data/bower/bower.png)
+}
+.pictogram-c# {
+  background-image: url(http://librariesio.github.io/pictogram/data/c#/c#.png)
+}
+.pictogram-c++ {
+  background-image: url(http://librariesio.github.io/pictogram/data/c++/c++.png)
+}
+.pictogram-clojure {
+  background-image: url(http://librariesio.github.io/pictogram/data/clojure/clojure.png)
+}
+.pictogram-coffeescript {
+  background-image: url(http://librariesio.github.io/pictogram/data/coffeescript/coffeescript.png)
+}
+.pictogram-css {
+  background-image: url(http://librariesio.github.io/pictogram/data/css/css.png)
+}
+.pictogram-elixir {
+  background-image: url(http://librariesio.github.io/pictogram/data/elixir/elixir.png)
+}
+.pictogram-go {
+  background-image: url(http://librariesio.github.io/pictogram/data/go/go.png)
+}
+.pictogram-haskell {
+  background-image: url(http://librariesio.github.io/pictogram/data/haskell/haskell.png)
+}
+.pictogram-html {
+  background-image: url(http://librariesio.github.io/pictogram/data/html/html.png)
+}
+.pictogram-java {
+  background-image: url(http://librariesio.github.io/pictogram/data/java/java.png)
+}
+.pictogram-javascript {
+  background-image: url(http://librariesio.github.io/pictogram/data/javascript/javascript.png)
+}
+.pictogram-maven {
+  background-image: url(http://librariesio.github.io/pictogram/data/maven/maven.png)
+}
+.pictogram-npm {
+  background-image: url(http://librariesio.github.io/pictogram/data/npm/npm.png)
+}
+.pictogram-nuget {
+  background-image: url(http://librariesio.github.io/pictogram/data/nuget/nuget.png)
+}
+.pictogram-packagist {
+  background-image: url(http://librariesio.github.io/pictogram/data/packagist/packagist.png)
+}
+.pictogram-php {
+  background-image: url(http://librariesio.github.io/pictogram/data/php/php.png)
+}
+.pictogram-python {
+  background-image: url(http://librariesio.github.io/pictogram/data/python/python.png)
+}
+.pictogram-ruby {
+  background-image: url(http://librariesio.github.io/pictogram/data/ruby/ruby.png)
+}
+.pictogram-rubygems {
+  background-image: url(http://librariesio.github.io/pictogram/data/rubygems/rubygems.png)
+}
+.pictogram-scala {
+  background-image: url(http://librariesio.github.io/pictogram/data/scala/scala.png)
+}
+.pictogram-wordpress {
+  background-image: url(http://librariesio.github.io/pictogram/data/wordpress/wordpress.png)
+}
