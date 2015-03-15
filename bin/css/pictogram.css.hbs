@@ -1,8 +1,9 @@
 .pictogram {
   width:40px;
   height:40px;
-  background: transparent no-repeat;
+  background: rgba(200,200,200,0.1) no-repeat;
   background-size: 100%;
+  box-shadow: inset 0px 1px 4px 1px rgba(0,0,0,0.1);
 }
 .pictogram-lg {
   width:60px;
@@ -10,6 +11,8 @@
 }
 {{#each this}}
 .pictogram-{{name}} {
-  background-image: url({{url}})
+  background-image: url({{url}});
+  background-color: transparent;
+  box-shadow:0;
 }
 {{/each}}
