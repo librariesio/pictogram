@@ -1,0 +1,49 @@
+.pictogram {
+  width:40px;
+  height:40px;
+  background: transparent no-repeat;
+  background-size: 100%;
+}
+.pictogram-lg {
+  width:60px;
+  height:60px;
+}
+.pictogram-c# {
+  background-image: url(http://librariesio.github.io/pictogram/data/c#/c#.png)
+}
+.pictogram-c++ {
+  background-image: url(http://librariesio.github.io/pictogram/data/c++/c++.png)
+}
+.pictogram-clojure {
+  background-image: url(http://librariesio.github.io/pictogram/data/clojure/clojure.png)
+}
+.pictogram-coffeescript {
+  background-image: url(http://librariesio.github.io/pictogram/data/coffeescript/coffeescript.png)
+}
+.pictogram-css {
+  background-image: url(http://librariesio.github.io/pictogram/data/css/css.png)
+}
+.pictogram-elixir {
+  background-image: url(http://librariesio.github.io/pictogram/data/elixir/elixir.png)
+}
+.pictogram-go {
+  background-image: url(http://librariesio.github.io/pictogram/data/go/go.png)
+}
+.pictogram-html {
+  background-image: url(http://librariesio.github.io/pictogram/data/html/html.png)
+}
+.pictogram-javascript {
+  background-image: url(http://librariesio.github.io/pictogram/data/javascript/javascript.png)
+}
+.pictogram-php {
+  background-image: url(http://librariesio.github.io/pictogram/data/php/php.png)
+}
+.pictogram-python {
+  background-image: url(http://librariesio.github.io/pictogram/data/python/python.png)
+}
+.pictogram-ruby {
+  background-image: url(http://librariesio.github.io/pictogram/data/ruby/ruby.png)
+}
+.pictogram-scala {
+  background-image: url(http://librariesio.github.io/pictogram/data/scala/scala.png)
+}

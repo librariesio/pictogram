@@ -1,0 +1,15 @@
+.pictogram {
+  width:40px;
+  height:40px;
+  background: transparent no-repeat;
+  background-size: 100%;
+}
+.pictogram-lg {
+  width:60px;
+  height:60px;
+}
+{{#each this}}
+.pictogram-{{name}} {
+  background-image: url({{url}})
+}
+{{/each}}
