@@ -32,6 +32,10 @@
   background-image: url(http://librariesio.github.io/pictogram/data/css/css.png);
   background-color: transparent;
 }
+.pictogram-dart {
+  background-image: url(http://librariesio.github.io/pictogram/data/dart/dart.png);
+  background-color: transparent;
+}
 .pictogram-elixir {
   background-image: url(http://librariesio.github.io/pictogram/data/elixir/elixir.png);
   background-color: transparent;
