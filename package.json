@@ -1,6 +1,6 @@
 {
   "name": "pictogram",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A simple service to map human concepts to pictures.",
   "license": "ISC",
   "repository": {
