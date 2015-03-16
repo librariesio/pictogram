@@ -1,11 +1,11 @@
 var fs = require('fs')
 var Handlebars = require('handlebars')
 var cssesc = require('cssesc')
-var list = require('../list/list')
+var picto = require('../../data/index.js')
 
 function generateCss () {
   var baseUrl = 'http://librariesio.github.io/pictogram/data/'
-  var data = prepareList(list(), baseUrl)
+  var data = prepareList(picto.list(), baseUrl)
   return toCss(data)
 }
 
