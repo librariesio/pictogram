@@ -20,7 +20,7 @@ const path = require('path')
 const async = require('async')
 const request = require('request')
 
-module.exports = function (opts) {
+module.exports = function (opts /* {name: '', url: '', referrer:''} */) {
   async.waterfall([
     mkdir.bind(null, opts),
     fetchImage,

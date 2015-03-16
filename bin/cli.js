@@ -39,6 +39,7 @@ const http = require('http')
 const ecstatic = require('ecstatic')
 const cli = require('nomnom')
 const grab = require('./grab/grab.js')
+const regrab = require('./regrab/regrab.js')
 const gh = require('./gh/gh.js')
 const css = require('./css/css.js')
 const list = require('./list/list.js')
@@ -83,6 +84,14 @@ cli.command('grab').options({
     help: 'to hell with the consequences'
   }
 }).callback(grab)
+
+cli.command('regrab').options({
+  name: {
+    required: true,
+    position: 1,
+    help: "the concept"
+  },
+}).callback(regrab)
 
 cli.command('serve').options({
   port: {
