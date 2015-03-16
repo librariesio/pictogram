@@ -20,6 +20,10 @@
   background-image: url(http://librariesio.github.io/pictogram/data/c++/c++.png);
   background-color: transparent;
 }
+.pictogram-cargo {
+  background-image: url(http://librariesio.github.io/pictogram/data/cargo/cargo.png);
+  background-color: transparent;
+}
 .pictogram-clojure {
   background-image: url(http://librariesio.github.io/pictogram/data/clojure/clojure.png);
   background-color: transparent;
@@ -48,6 +52,10 @@
   background-image: url(http://librariesio.github.io/pictogram/data/groovy/groovy.png);
   background-color: transparent;
 }
+.pictogram-hackage {
+  background-image: url(http://librariesio.github.io/pictogram/data/hackage/hackage.png);
+  background-color: transparent;
+}
 .pictogram-haskell {
   background-image: url(http://librariesio.github.io/pictogram/data/haskell/haskell.png);
   background-color: transparent;
@@ -68,6 +76,10 @@
   background-image: url(http://librariesio.github.io/pictogram/data/maven/maven.png);
   background-color: transparent;
 }
+.pictogram-meteor {
+  background-image: url(http://librariesio.github.io/pictogram/data/meteor/meteor.png);
+  background-color: transparent;
+}
 .pictogram-npm {
   background-image: url(http://librariesio.github.io/pictogram/data/npm/npm.png);
   background-color: transparent;
@@ -82,6 +94,10 @@
 }
 .pictogram-php {
   background-image: url(http://librariesio.github.io/pictogram/data/php/php.png);
+  background-color: transparent;
+}
+.pictogram-pypi {
+  background-image: url(http://librariesio.github.io/pictogram/data/pypi/pypi.png);
   background-color: transparent;
 }
 .pictogram-python {
@@ -102,6 +118,10 @@
 }
 .pictogram-scala {
   background-image: url(http://librariesio.github.io/pictogram/data/scala/scala.png);
+  background-color: transparent;
+}
+.pictogram-sublime {
+  background-image: url(http://librariesio.github.io/pictogram/data/sublime/sublime.png);
   background-color: transparent;
 }
 .pictogram-wordpress {
