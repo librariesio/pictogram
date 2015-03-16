@@ -23,16 +23,26 @@
 
  # Serve up the data dir on port
  picto serve -p 8080
+
+ # create a css file for all pictograms
+ picto css
+
+ # list all pictograms
+ picto list
+
+ # Erh merh gerd
+ picto show <name>
  ```
 
 */
-var http = require('http')
+const http = require('http')
 const ecstatic = require('ecstatic')
 const cli = require('nomnom')
-const pictogram = require('./pictogram')
-const gh = require('./gh')
+const grab = require('./grab/grab.js')
+const gh = require('./gh/gh.js')
 const css = require('./css/css.js')
 const list = require('./list/list.js')
+const show = require('./show/show.js')
 
 cli.command('gh').options({
   name: {
@@ -72,7 +82,7 @@ cli.command('grab').options({
     abbr: 'f',
     help: 'to hell with the consequences'
   }
-}).callback(pictogram)
+}).callback(grab)
 
 cli.command('serve').options({
   port: {
@@ -90,6 +100,16 @@ cli.command('serve').options({
 
 cli.command('css').callback(css.print)
 
-cli.command('list').callback(list.print)
+cli.command('ls').callback(list)
+
+cli.command('list').callback(list)
+
+cli.command('show').options({
+  name: {
+    required: true,
+    position: 1,
+    help: "the concept"
+  }
+}).callback(show)
 
 cli.parse();

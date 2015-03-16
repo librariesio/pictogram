@@ -29,6 +29,7 @@
     "ecstatic": "^0.6.1",
     "handlebars": "^3.0.0",
     "nomnom": "^1.8.1",
+    "picture-tube": "0.0.4",
     "request": "^2.53.0"
   }
 }

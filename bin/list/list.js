@@ -1,19 +1,23 @@
-var fs = require('fs')
+/*
 
-function list (opts) {
-  opts = opts || {}
-  var dir = opts.dir || __dirname + '/../../data/'
-  var files = fs.readdirSync(dir)
-  return files.filter(function (item) {
-    return ['.DS_Store', 'index.js'].indexOf(item) === -1
-  })
-}
+              _        __
+       ___   (_) ____ / /_ ___   ___ _  ____ ___ _  __ _
+      / _ \ / / / __// __// _ \ / _ `/ / __// _ `/ /  ' \
+     / .__//_/  \__/ \__/ \___/ \_, / /_/   \_,_/ /_/_/_/
+    /_/                        /___/
 
-function print (opts) {
-  list(opts).forEach(function (item) {
+                 A pictorial symbol for a word or phrase.
+
+                                  A libraries.io project.
+
+- Scrap github for org images
+*/
+const data = require('../../data/index.js')
+
+function list () {
+  data.list().forEach(function (item) {
     console.log(item)
   })
 }
 
 module.exports = list
-module.exports.print = print
