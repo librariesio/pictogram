@@ -32,6 +32,7 @@ const cli = require('nomnom')
 const pictogram = require('./pictogram')
 const gh = require('./gh')
 const css = require('./css/css.js')
+const list = require('./list/list.js')
 
 cli.command('gh').options({
   name: {
@@ -87,6 +88,8 @@ cli.command('serve').options({
   console.log('Serving pictograms on :' + port)
 })
 
-cli.command('css').callback(css)
+cli.command('css').callback(css.print)
+
+cli.command('list').callback(list.print)
 
 cli.parse();

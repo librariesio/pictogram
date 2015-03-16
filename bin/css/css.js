@@ -1,27 +1,22 @@
 var fs = require('fs')
 var Handlebars = require('handlebars')
 var cssesc = require('cssesc')
+var list = require('../list/list')
 
 function generateCss () {
   var baseUrl = 'http://librariesio.github.io/pictogram/data/'
-  var list = fs.readdirSync(__dirname + '/../../data/')
-  var data = prepareList(list, baseUrl)
-  var res = toCss(data)
-  fs.writeFileSync('pictogram.css', res)
+  var data = prepareList(list(), baseUrl)
+  return toCss(data)
 }
 
 function prepareList (list, baseUrl) {
-  return list
-    .filter(function (item) {
-      return ['.DS_Store', 'index.js'].indexOf(item) === -1
-    })
-    .map(function (item) {
-      return {
-        name: item,
-        cssIdentifier: cssesc(item, {'isIdentifier': true}),
-        url : baseUrl + item + '/' + item + '.png'
-      }
-    })
+  return list.map(function (item) {
+    return {
+      name: item,
+      cssIdentifier: cssesc(item, {'isIdentifier': true}),
+      url : baseUrl + item + '/' + item + '.png'
+    }
+  })
 }
 
 function toCss (data) {
@@ -29,6 +24,11 @@ function toCss (data) {
   return tpl(data)
 }
 
+function print (opts) {
+  console.log(generateCss(opts))
+}
+
 module.exports = generateCss
 module.exports.toCss = toCss
 module.exports.prepareList = prepareList
+module.exports.print = print
