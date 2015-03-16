@@ -8,19 +8,15 @@
   width:60px;
   height:60px;
 }
-.pictogram-.DS_Store {
-  background-image: url(http://librariesio.github.io/pictogram/data/.DS_Store/.DS_Store.png);
-  background-color: transparent;
-}
 .pictogram-bower {
   background-image: url(http://librariesio.github.io/pictogram/data/bower/bower.png);
   background-color: transparent;
 }
-.pictogram-c# {
+.pictogram-c\# {
   background-image: url(http://librariesio.github.io/pictogram/data/c#/c#.png);
   background-color: transparent;
 }
-.pictogram-c++ {
+.pictogram-c\+\+ {
   background-image: url(http://librariesio.github.io/pictogram/data/c++/c++.png);
   background-color: transparent;
 }
@@ -80,7 +76,7 @@
   background-image: url(http://librariesio.github.io/pictogram/data/php/php.png);
   background-color: transparent;
 }
-.pictogram-pictogram.css {
+.pictogram-pictogram\.css {
   background-image: url(http://librariesio.github.io/pictogram/data/pictogram.css/pictogram.css.png);
   background-color: transparent;
 }
