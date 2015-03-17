@@ -41,6 +41,7 @@ const cli = require('nomnom')
 const grab = require('./grab/grab.js')
 const regrab = require('./regrab/regrab.js')
 const gh = require('./gh/gh.js')
+const ghUser = require('./gh/user.js')
 const css = require('./css/css.js')
 const list = require('./list/list.js')
 const show = require('./show/show.js')
@@ -61,6 +62,14 @@ cli.command('gh').options({
     help: 'to hell with the consequences'
   }
 }).callback(gh)
+
+cli.command('ghuser').options({
+  name: {
+    required: true,
+    position: 1,
+    help: "github username"
+  }
+}).callback(ghUser)
 
 cli.command('grab').options({
   name: {
