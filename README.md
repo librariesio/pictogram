@@ -44,3 +44,13 @@ A simple service to map human concepts to pictures.
  var ruby = pictogram('ruby')
 ```
 ![ruby pictogram](https://avatars0.githubusercontent.com/u/210414?v=3&s=200)
+
+
+## CLI
+
+```sh
+npm install -g picto
+picto show haskell
+```
+
+![picto show haskell](https://cloud.githubusercontent.com/assets/58871/6697281/78d00dbe-cce7-11e4-9399-7ff7095be34d.png)

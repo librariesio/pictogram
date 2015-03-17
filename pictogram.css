@@ -72,12 +72,24 @@
   background-image: url(http://librariesio.github.io/pictogram/data/javascript/javascript.png);
   background-color: transparent;
 }
+.pictogram-lua {
+  background-image: url(http://librariesio.github.io/pictogram/data/lua/lua.png);
+  background-color: transparent;
+}
 .pictogram-maven {
   background-image: url(http://librariesio.github.io/pictogram/data/maven/maven.png);
   background-color: transparent;
 }
 .pictogram-meteor {
   background-image: url(http://librariesio.github.io/pictogram/data/meteor/meteor.png);
+  background-color: transparent;
+}
+.pictogram-nimble {
+  background-image: url(http://librariesio.github.io/pictogram/data/nimble/nimble.png);
+  background-color: transparent;
+}
+.pictogram-nimrod {
+  background-image: url(http://librariesio.github.io/pictogram/data/nimrod/nimrod.png);
   background-color: transparent;
 }
 .pictogram-npm {
@@ -94,6 +106,10 @@
 }
 .pictogram-php {
   background-image: url(http://librariesio.github.io/pictogram/data/php/php.png);
+  background-color: transparent;
+}
+.pictogram-pub {
+  background-image: url(http://librariesio.github.io/pictogram/data/pub/pub.png);
   background-color: transparent;
 }
 .pictogram-pypi {
