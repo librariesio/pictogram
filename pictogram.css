@@ -24,6 +24,10 @@
   background-image: url(http://librariesio.github.io/pictogram/data/cargo/cargo.png);
   background-color: transparent;
 }
+.pictogram-clojars {
+  background-image: url(http://librariesio.github.io/pictogram/data/clojars/clojars.png);
+  background-color: transparent;
+}
 .pictogram-clojure {
   background-image: url(http://librariesio.github.io/pictogram/data/clojure/clojure.png);
   background-color: transparent;
@@ -36,8 +40,16 @@
   background-image: url(http://librariesio.github.io/pictogram/data/css/css.png);
   background-color: transparent;
 }
+.pictogram-d {
+  background-image: url(http://librariesio.github.io/pictogram/data/d/d.png);
+  background-color: transparent;
+}
 .pictogram-dart {
   background-image: url(http://librariesio.github.io/pictogram/data/dart/dart.png);
+  background-color: transparent;
+}
+.pictogram-dub {
+  background-image: url(http://librariesio.github.io/pictogram/data/dub/dub.png);
   background-color: transparent;
 }
 .pictogram-elixir {
