@@ -9,159 +9,139 @@
   height:60px;
 }
 .pictogram-bower {
-  background-image: url(http://librariesio.github.io/pictogram/data/bower/bower.png);
+  background-image: url(http://librariesio.github.io/pictogram/bower/bower.png);
   background-color: transparent;
 }
 .pictogram-c\# {
-  background-image: url(http://librariesio.github.io/pictogram/data/c#/c#.png);
+  background-image: url(http://librariesio.github.io/pictogram/c#/c#.png);
   background-color: transparent;
 }
 .pictogram-c\+\+ {
-  background-image: url(http://librariesio.github.io/pictogram/data/c++/c++.png);
+  background-image: url(http://librariesio.github.io/pictogram/c++/c++.png);
   background-color: transparent;
 }
 .pictogram-cargo {
-  background-image: url(http://librariesio.github.io/pictogram/data/cargo/cargo.png);
-  background-color: transparent;
-}
-.pictogram-clojars {
-  background-image: url(http://librariesio.github.io/pictogram/data/clojars/clojars.png);
+  background-image: url(http://librariesio.github.io/pictogram/cargo/cargo.png);
   background-color: transparent;
 }
 .pictogram-clojure {
-  background-image: url(http://librariesio.github.io/pictogram/data/clojure/clojure.png);
-  background-color: transparent;
-}
-.pictogram-cocoapods {
-  background-image: url(http://librariesio.github.io/pictogram/data/cocoapods/cocoapods.png);
+  background-image: url(http://librariesio.github.io/pictogram/clojure/clojure.png);
   background-color: transparent;
 }
 .pictogram-coffeescript {
-  background-image: url(http://librariesio.github.io/pictogram/data/coffeescript/coffeescript.png);
+  background-image: url(http://librariesio.github.io/pictogram/coffeescript/coffeescript.png);
   background-color: transparent;
 }
 .pictogram-css {
-  background-image: url(http://librariesio.github.io/pictogram/data/css/css.png);
-  background-color: transparent;
-}
-.pictogram-d {
-  background-image: url(http://librariesio.github.io/pictogram/data/d/d.png);
+  background-image: url(http://librariesio.github.io/pictogram/css/css.png);
   background-color: transparent;
 }
 .pictogram-dart {
-  background-image: url(http://librariesio.github.io/pictogram/data/dart/dart.png);
-  background-color: transparent;
-}
-.pictogram-dub {
-  background-image: url(http://librariesio.github.io/pictogram/data/dub/dub.png);
+  background-image: url(http://librariesio.github.io/pictogram/dart/dart.png);
   background-color: transparent;
 }
 .pictogram-elixir {
-  background-image: url(http://librariesio.github.io/pictogram/data/elixir/elixir.png);
+  background-image: url(http://librariesio.github.io/pictogram/elixir/elixir.png);
   background-color: transparent;
 }
 .pictogram-go {
-  background-image: url(http://librariesio.github.io/pictogram/data/go/go.png);
+  background-image: url(http://librariesio.github.io/pictogram/go/go.png);
   background-color: transparent;
 }
 .pictogram-groovy {
-  background-image: url(http://librariesio.github.io/pictogram/data/groovy/groovy.png);
+  background-image: url(http://librariesio.github.io/pictogram/groovy/groovy.png);
   background-color: transparent;
 }
 .pictogram-hackage {
-  background-image: url(http://librariesio.github.io/pictogram/data/hackage/hackage.png);
+  background-image: url(http://librariesio.github.io/pictogram/hackage/hackage.png);
   background-color: transparent;
 }
 .pictogram-haskell {
-  background-image: url(http://librariesio.github.io/pictogram/data/haskell/haskell.png);
+  background-image: url(http://librariesio.github.io/pictogram/haskell/haskell.png);
   background-color: transparent;
 }
 .pictogram-html {
-  background-image: url(http://librariesio.github.io/pictogram/data/html/html.png);
+  background-image: url(http://librariesio.github.io/pictogram/html/html.png);
   background-color: transparent;
 }
 .pictogram-java {
-  background-image: url(http://librariesio.github.io/pictogram/data/java/java.png);
+  background-image: url(http://librariesio.github.io/pictogram/java/java.png);
   background-color: transparent;
 }
 .pictogram-javascript {
-  background-image: url(http://librariesio.github.io/pictogram/data/javascript/javascript.png);
+  background-image: url(http://librariesio.github.io/pictogram/javascript/javascript.png);
   background-color: transparent;
 }
 .pictogram-lua {
-  background-image: url(http://librariesio.github.io/pictogram/data/lua/lua.png);
+  background-image: url(http://librariesio.github.io/pictogram/lua/lua.png);
   background-color: transparent;
 }
 .pictogram-maven {
-  background-image: url(http://librariesio.github.io/pictogram/data/maven/maven.png);
+  background-image: url(http://librariesio.github.io/pictogram/maven/maven.png);
   background-color: transparent;
 }
 .pictogram-meteor {
-  background-image: url(http://librariesio.github.io/pictogram/data/meteor/meteor.png);
+  background-image: url(http://librariesio.github.io/pictogram/meteor/meteor.png);
   background-color: transparent;
 }
 .pictogram-nimble {
-  background-image: url(http://librariesio.github.io/pictogram/data/nimble/nimble.png);
+  background-image: url(http://librariesio.github.io/pictogram/nimble/nimble.png);
   background-color: transparent;
 }
 .pictogram-nimrod {
-  background-image: url(http://librariesio.github.io/pictogram/data/nimrod/nimrod.png);
+  background-image: url(http://librariesio.github.io/pictogram/nimrod/nimrod.png);
   background-color: transparent;
 }
 .pictogram-npm {
-  background-image: url(http://librariesio.github.io/pictogram/data/npm/npm.png);
+  background-image: url(http://librariesio.github.io/pictogram/npm/npm.png);
   background-color: transparent;
 }
 .pictogram-nuget {
-  background-image: url(http://librariesio.github.io/pictogram/data/nuget/nuget.png);
+  background-image: url(http://librariesio.github.io/pictogram/nuget/nuget.png);
   background-color: transparent;
 }
 .pictogram-packagist {
-  background-image: url(http://librariesio.github.io/pictogram/data/packagist/packagist.png);
+  background-image: url(http://librariesio.github.io/pictogram/packagist/packagist.png);
   background-color: transparent;
 }
 .pictogram-php {
-  background-image: url(http://librariesio.github.io/pictogram/data/php/php.png);
+  background-image: url(http://librariesio.github.io/pictogram/php/php.png);
   background-color: transparent;
 }
 .pictogram-pub {
-  background-image: url(http://librariesio.github.io/pictogram/data/pub/pub.png);
+  background-image: url(http://librariesio.github.io/pictogram/pub/pub.png);
   background-color: transparent;
 }
 .pictogram-pypi {
-  background-image: url(http://librariesio.github.io/pictogram/data/pypi/pypi.png);
+  background-image: url(http://librariesio.github.io/pictogram/pypi/pypi.png);
   background-color: transparent;
 }
 .pictogram-python {
-  background-image: url(http://librariesio.github.io/pictogram/data/python/python.png);
+  background-image: url(http://librariesio.github.io/pictogram/python/python.png);
   background-color: transparent;
 }
 .pictogram-ruby {
-  background-image: url(http://librariesio.github.io/pictogram/data/ruby/ruby.png);
+  background-image: url(http://librariesio.github.io/pictogram/ruby/ruby.png);
   background-color: transparent;
 }
 .pictogram-rubygems {
-  background-image: url(http://librariesio.github.io/pictogram/data/rubygems/rubygems.png);
+  background-image: url(http://librariesio.github.io/pictogram/rubygems/rubygems.png);
   background-color: transparent;
 }
 .pictogram-rust {
-  background-image: url(http://librariesio.github.io/pictogram/data/rust/rust.png);
+  background-image: url(http://librariesio.github.io/pictogram/rust/rust.png);
   background-color: transparent;
 }
 .pictogram-scala {
-  background-image: url(http://librariesio.github.io/pictogram/data/scala/scala.png);
+  background-image: url(http://librariesio.github.io/pictogram/scala/scala.png);
   background-color: transparent;
 }
 .pictogram-sublime {
-  background-image: url(http://librariesio.github.io/pictogram/data/sublime/sublime.png);
-  background-color: transparent;
-}
-.pictogram-swift {
-  background-image: url(http://librariesio.github.io/pictogram/data/swift/swift.png);
+  background-image: url(http://librariesio.github.io/pictogram/sublime/sublime.png);
   background-color: transparent;
 }
 .pictogram-wordpress {
-  background-image: url(http://librariesio.github.io/pictogram/data/wordpress/wordpress.png);
+  background-image: url(http://librariesio.github.io/pictogram/wordpress/wordpress.png);
   background-color: transparent;
 }
 
