@@ -1,7 +1,7 @@
 {
   "name": "pictogram",
   "version": "0.10.2",
-  "description": "A simple service to map human concepts to pictures.",
+  "description": "Mapping human concepts to pictures.",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -11,25 +11,13 @@
     "name": "olizilla",
     "email": "oli@zilla.org.uk"
   },
-  "main": "data/index.js",
-  "bin": {
-    "pictogram": "bin/cli.js",
-    "picto": "bin/cli.js"
-  },
+  "main": "index.js",
   "scripts": {
-    "test": "node test/data.spec.js"
+    "test": "node index.test.js"
   },
   "devDependencies": {
     "tape": "3.0.3"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "cheerio": "^0.18.0",
-    "cssesc": "^0.1.0",
-    "ecstatic": "^0.6.1",
-    "handlebars": "^3.0.0",
-    "nomnom": "^1.8.1",
-    "picture-tube": "0.0.4",
-    "request": "^2.53.0"
   }
 }

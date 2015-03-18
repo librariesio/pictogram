@@ -10,17 +10,21 @@
                                   A libraries.io project.
 
 
-
 # Pictogram
 
 A simple service to map human concepts to pictures.
+
+**Install via npm**
+```sh
+npm install pictogram
+```
+
+**Grab the metadata for a pictogram**
 
 ```js
  var ruby = pictogram.meta('ruby')
  console.log(ruby)
 ```
-
-`pictogram.meta('ruby')` gets you the data
 
 ```json
 {
@@ -38,7 +42,7 @@ A simple service to map human concepts to pictures.
  }
 ```
 
-`pictogram('ruby')` gives you the image
+**Grab a stream to a pictogram for a given word**
 
 ```js
  var ruby = pictogram('ruby')
@@ -46,7 +50,7 @@ A simple service to map human concepts to pictures.
 ![ruby pictogram](https://avatars0.githubusercontent.com/u/210414?v=3&s=200)
 
 
-## CLI
+## picto - the pictogram wrangling cli
 
 ```sh
 npm install -g picto
