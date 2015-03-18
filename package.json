@@ -1,6 +1,6 @@
 {
   "name": "pictogram",
-  "version": "0.10.2",
+  "version": "1.0.0",
   "description": "Mapping human concepts to pictures.",
   "license": "ISC",
   "repository": {
@@ -18,6 +18,5 @@
   "devDependencies": {
     "tape": "3.0.3"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
