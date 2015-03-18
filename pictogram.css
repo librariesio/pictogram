@@ -32,6 +32,10 @@
   background-image: url(http://librariesio.github.io/pictogram/data/clojure/clojure.png);
   background-color: transparent;
 }
+.pictogram-cocoapods {
+  background-image: url(http://librariesio.github.io/pictogram/data/cocoapods/cocoapods.png);
+  background-color: transparent;
+}
 .pictogram-coffeescript {
   background-image: url(http://librariesio.github.io/pictogram/data/coffeescript/coffeescript.png);
   background-color: transparent;
@@ -150,6 +154,10 @@
 }
 .pictogram-sublime {
   background-image: url(http://librariesio.github.io/pictogram/data/sublime/sublime.png);
+  background-color: transparent;
+}
+.pictogram-swift {
+  background-image: url(http://librariesio.github.io/pictogram/data/swift/swift.png);
   background-color: transparent;
 }
 .pictogram-wordpress {
