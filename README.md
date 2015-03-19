@@ -10,11 +10,9 @@
                                   A libraries.io project.
 
 
-# Pictogram
+# [Pictogram](http://libraries.io/npm/pictogram)
 
 A simple service to map human concepts to pictures.
-
-http://libraries.io/npm/pictogram
 
 **Install via npm**
 ```sh
