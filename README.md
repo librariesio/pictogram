@@ -14,6 +14,8 @@
 
 A simple service to map human concepts to pictures.
 
+http://libraries.io/npm/pictogram
+
 **Install via npm**
 ```sh
 npm install pictogram
