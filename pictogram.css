@@ -8,6 +8,10 @@
   width:60px;
   height:60px;
 }
+.pictogram-apacheconf {
+  background-image: url(http://librariesio.github.io/pictogram/apacheconf/apacheconf.png);
+  background-color: transparent;
+}
 .pictogram-bower {
   background-image: url(http://librariesio.github.io/pictogram/bower/bower.png);
   background-color: transparent;
@@ -72,6 +76,10 @@
   background-image: url(http://librariesio.github.io/pictogram/f%23/f%23.png);
   background-color: transparent;
 }
+.pictogram-fortran {
+  background-image: url(http://librariesio.github.io/pictogram/fortran/fortran.png);
+  background-color: transparent;
+}
 .pictogram-go {
   background-image: url(http://librariesio.github.io/pictogram/go/go.png);
   background-color: transparent;
@@ -132,6 +140,10 @@
   background-image: url(http://librariesio.github.io/pictogram/packagist/packagist.png);
   background-color: transparent;
 }
+.pictogram-perl {
+  background-image: url(http://librariesio.github.io/pictogram/perl/perl.png);
+  background-color: transparent;
+}
 .pictogram-php {
   background-image: url(http://librariesio.github.io/pictogram/php/php.png);
   background-color: transparent;
@@ -142,6 +154,10 @@
 }
 .pictogram-pub {
   background-image: url(http://librariesio.github.io/pictogram/pub/pub.png);
+  background-color: transparent;
+}
+.pictogram-puppet {
+  background-image: url(http://librariesio.github.io/pictogram/puppet/puppet.png);
   background-color: transparent;
 }
 .pictogram-purescript {
@@ -170,6 +186,10 @@
 }
 .pictogram-scala {
   background-image: url(http://librariesio.github.io/pictogram/scala/scala.png);
+  background-color: transparent;
+}
+.pictogram-scheme {
+  background-image: url(http://librariesio.github.io/pictogram/scheme/scheme.png);
   background-color: transparent;
 }
 .pictogram-sublime {
