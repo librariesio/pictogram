@@ -17,11 +17,11 @@
   background-color: transparent;
 }
 .pictogram-c\# {
-  background-image: url(http://librariesio.github.io/pictogram/c#/c#.png);
+  background-image: url(http://librariesio.github.io/pictogram/c%23/c%23.png);
   background-color: transparent;
 }
 .pictogram-c\+\+ {
-  background-image: url(http://librariesio.github.io/pictogram/c++/c++.png);
+  background-image: url(http://librariesio.github.io/pictogram/c%2B%2B/c%2B%2B.png);
   background-color: transparent;
 }
 .pictogram-cargo {
@@ -69,7 +69,7 @@
   background-color: transparent;
 }
 .pictogram-f\# {
-  background-image: url(http://librariesio.github.io/pictogram/f#/f#.png);
+  background-image: url(http://librariesio.github.io/pictogram/f%23/f%23.png);
   background-color: transparent;
 }
 .pictogram-go {
