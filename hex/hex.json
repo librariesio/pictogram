@@ -1,0 +1,35 @@
+{
+  "name": "hex",
+  "source": {
+    "url": "https://avatars3.githubusercontent.com/u/6621265?v=3&s=200",
+    "referrer": "https://github.com/hexpm",
+    "headers": {
+      "date": "Sat, 21 Mar 2015 09:49:29 GMT",
+      "server": "Apache",
+      "access-control-allow-origin": "*",
+      "cache-control": "max-age=300",
+      "content-security-policy": "default-src 'none'",
+      "content-type": "image/png",
+      "etag": "\"41095170ec5a96d560e6331c631f09ce2fa2e71f\"",
+      "last-modified": "Tue, 14 Oct 2014 09:34:57 GMT",
+      "strict-transport-security": "max-age=31557600",
+      "timing-allow-origin": "https://github.com",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "deny",
+      "x-github-request-id": "7c4109d0-cfaf-11e4-8e85-c9f026297922",
+      "x-xss-protection": "1; mode=block",
+      "host": "avatars.githubusercontent.com",
+      "content-length": "3450",
+      "accept-ranges": "bytes",
+      "via": "1.1 varnish",
+      "x-served-by": "cache-ams4133-AMS",
+      "x-cache": "HIT",
+      "x-cache-hits": "1",
+      "expires": "Sat, 21 Mar 2015 09:54:29 GMT",
+      "source-age": "35",
+      "vary": "AuthorizationAccept-Encoding",
+      "keep-alive": "timeout=10, max=50",
+      "connection": "Keep-Alive"
+    }
+  }
+}

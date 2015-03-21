@@ -8,6 +8,10 @@
   width:60px;
   height:60px;
 }
+.pictogram-alcatraz {
+  background-image: url(http://librariesio.github.io/pictogram/alcatraz/alcatraz.png);
+  background-color: transparent;
+}
 .pictogram-apacheconf {
   background-image: url(http://librariesio.github.io/pictogram/apacheconf/apacheconf.png);
   background-color: transparent;
@@ -48,6 +52,14 @@
   background-image: url(http://librariesio.github.io/pictogram/coffeescript/coffeescript.png);
   background-color: transparent;
 }
+.pictogram-cpan {
+  background-image: url(http://librariesio.github.io/pictogram/cpan/cpan.png);
+  background-color: transparent;
+}
+.pictogram-cran {
+  background-image: url(http://librariesio.github.io/pictogram/cran/cran.png);
+  background-color: transparent;
+}
 .pictogram-css {
   background-image: url(http://librariesio.github.io/pictogram/css/css.png);
   background-color: transparent;
@@ -66,6 +78,10 @@
 }
 .pictogram-elixir {
   background-image: url(http://librariesio.github.io/pictogram/elixir/elixir.png);
+  background-color: transparent;
+}
+.pictogram-emacs {
+  background-image: url(http://librariesio.github.io/pictogram/emacs/emacs.png);
   background-color: transparent;
 }
 .pictogram-erlang {
@@ -88,6 +104,10 @@
   background-image: url(http://librariesio.github.io/pictogram/groovy/groovy.png);
   background-color: transparent;
 }
+.pictogram-hack {
+  background-image: url(http://librariesio.github.io/pictogram/hack/hack.png);
+  background-color: transparent;
+}
 .pictogram-hackage {
   background-image: url(http://librariesio.github.io/pictogram/hackage/hackage.png);
   background-color: transparent;
@@ -96,8 +116,16 @@
   background-image: url(http://librariesio.github.io/pictogram/haskell/haskell.png);
   background-color: transparent;
 }
+.pictogram-hex {
+  background-image: url(http://librariesio.github.io/pictogram/hex/hex.png);
+  background-color: transparent;
+}
 .pictogram-html {
   background-image: url(http://librariesio.github.io/pictogram/html/html.png);
+  background-color: transparent;
+}
+.pictogram-jam {
+  background-image: url(http://librariesio.github.io/pictogram/jam/jam.png);
   background-color: transparent;
 }
 .pictogram-java {
@@ -170,6 +198,10 @@
 }
 .pictogram-python {
   background-image: url(http://librariesio.github.io/pictogram/python/python.png);
+  background-color: transparent;
+}
+.pictogram-r {
+  background-image: url(http://librariesio.github.io/pictogram/r/r.png);
   background-color: transparent;
 }
 .pictogram-ruby {
