@@ -104,6 +104,10 @@
   background-image: url(http://librariesio.github.io/pictogram/fortran/fortran.png);
   background-color: transparent;
 }
+.pictogram-game\ maker\ language {
+  background-image: url(http://librariesio.github.io/pictogram/game%20maker%20language/game%20maker%20language.png);
+  background-color: transparent;
+}
 .pictogram-go {
   background-image: url(http://librariesio.github.io/pictogram/go/go.png);
   background-color: transparent;
@@ -162,6 +166,10 @@
 }
 .pictogram-make {
   background-image: url(http://librariesio.github.io/pictogram/make/make.png);
+  background-color: transparent;
+}
+.pictogram-makefile {
+  background-image: url(http://librariesio.github.io/pictogram/makefile/makefile.png);
   background-color: transparent;
 }
 .pictogram-maven {
