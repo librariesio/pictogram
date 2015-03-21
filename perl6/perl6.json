@@ -1,0 +1,35 @@
+{
+  "name": "perl6",
+  "source": {
+    "url": "https://avatars0.githubusercontent.com/u/3585411?v=3&s=200",
+    "referrer": "https://github.com/perl",
+    "headers": {
+      "date": "Sat, 21 Mar 2015 19:39:50 GMT",
+      "server": "Apache",
+      "access-control-allow-origin": "*",
+      "cache-control": "max-age=300",
+      "content-security-policy": "default-src 'none'",
+      "content-type": "image/png",
+      "etag": "\"d886373644ba963bb83f7e7b457bcf6d9cfcfb7d\"",
+      "last-modified": "Thu, 05 Jun 2014 17:29:14 GMT",
+      "strict-transport-security": "max-age=31557600",
+      "timing-allow-origin": "https://github.com",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "deny",
+      "x-github-request-id": "43441adc-c366-11e4-80b6-47f2ed9a1329",
+      "x-xss-protection": "1; mode=block",
+      "host": "avatars.githubusercontent.com",
+      "content-length": "18925",
+      "accept-ranges": "bytes",
+      "via": "1.1 varnish",
+      "x-served-by": "cache-ams4130-AMS",
+      "x-cache": "HIT",
+      "x-cache-hits": "1",
+      "expires": "Sat, 21 Mar 2015 19:44:50 GMT",
+      "source-age": "1386318",
+      "vary": "AuthorizationAccept-Encoding",
+      "keep-alive": "timeout=10, max=50",
+      "connection": "Keep-Alive"
+    }
+  }
+}
