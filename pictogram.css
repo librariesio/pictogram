@@ -160,6 +160,10 @@
   background-image: url(http://librariesio.github.io/pictogram/javascript/javascript.png);
   background-color: transparent;
 }
+.pictogram-julia {
+  background-image: url(http://librariesio.github.io/pictogram/julia/julia.png);
+  background-color: transparent;
+}
 .pictogram-livescript {
   background-image: url(http://librariesio.github.io/pictogram/livescript/livescript.png);
   background-color: transparent;
