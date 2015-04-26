@@ -13,7 +13,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node index.test.js",
+    "deref": "find . -type l -exec cp '{}' '{}'.deref \\; -exec mv -f '{}'.deref '{}' \\;"
   },
   "devDependencies": {
     "tape": "3.0.3"
