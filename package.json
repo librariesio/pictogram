@@ -14,7 +14,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js",
-    "deref": "find . -type l -exec cp '{}' '{}'.deref \\; -exec mv -f '{}'.deref '{}' \\;"
+    "deref": "find . -type l -exec cp '{}' '{}'.deref \\; -exec mv -f '{}'.deref '{}' \\;",
+    "optipng": "find . -name '*.png'  \\! -name '*.orig.png' -exec optipng -o5 {} \\;"
   },
   "devDependencies": {
     "tape": "3.0.3"
