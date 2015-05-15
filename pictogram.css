@@ -220,6 +220,10 @@
   background-image: url(https://librariesio.github.io/pictogram/php/php.png);
   background-color: transparent;
 }
+.pictogram-platformio {
+  background-image: url(http://librariesio.github.io/pictogram/platformio/platformio.png);
+  background-color: transparent;
+}
 .pictogram-powershell {
   background-image: url(https://librariesio.github.io/pictogram/powershell/powershell.png);
   background-color: transparent;

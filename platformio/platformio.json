@@ -1,0 +1,32 @@
+{
+  "name": "platformio",
+  "source": {
+    "url": "https://avatars2.githubusercontent.com/u/11621357?v=3&s=200",
+    "referrer": "https://github.com/platformio",
+    "headers": {
+      "access-control-allow-origin": "*",
+      "cache-control": "max-age=300",
+      "content-security-policy": "default-src 'none'",
+      "content-type": "image/png",
+      "etag": "\"ef2d8a5a617f5633b2a61aad864eea624329e28a\"",
+      "last-modified": "Mon, 23 Mar 2015 22:57:14 GMT",
+      "strict-transport-security": "max-age=31557600",
+      "timing-allow-origin": "https://github.com",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "deny",
+      "x-github-request-id": "a79ffae0-eef2-11e4-88b9-16c1773c5309",
+      "x-xss-protection": "1; mode=block",
+      "content-length": "8086",
+      "accept-ranges": "bytes",
+      "date": "Fri, 15 May 2015 14:01:59 GMT",
+      "via": "1.1 varnish",
+      "connection": "keep-alive",
+      "x-served-by": "cache-ams4125-AMS",
+      "x-cache": "HIT",
+      "x-cache-hits": "3",
+      "expires": "Fri, 15 May 2015 14:06:59 GMT",
+      "source-age": "1329850",
+      "vary": "Authorization,Accept-Encoding"
+    }
+  }
+}
