@@ -24,6 +24,10 @@
   background-image: url(https://librariesio.github.io/pictogram/assembly/assembly.png);
   background-color: transparent;
 }
+.pictogram-biicode {
+  background-image: url(https://librariesio.github.io/pictogram/biicode/biicode.png);
+  background-color: transparent;
+}
 .pictogram-bower {
   background-image: url(https://librariesio.github.io/pictogram/bower/bower.png);
   background-color: transparent;
@@ -296,3 +300,4 @@
   background-image: url(https://librariesio.github.io/pictogram/xml/xml.png);
   background-color: transparent;
 }
+
