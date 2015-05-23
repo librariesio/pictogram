@@ -24,6 +24,10 @@
   background-image: url(https://librariesio.github.io/pictogram/assembly/assembly.png);
   background-color: transparent;
 }
+.pictogram-atom {
+  background-image: url(https://librariesio.github.io/pictogram/atom/atom.png);
+  background-color: transparent;
+}
 .pictogram-biicode {
   background-image: url(https://librariesio.github.io/pictogram/biicode/biicode.png);
   background-color: transparent;
