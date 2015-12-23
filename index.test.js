@@ -18,8 +18,8 @@ test('pictorgram.url', function (t){
 test('pictorgram.list', function (t){
   t.plan(5)
   var list = pictorgram.list()
-  t.equals(list[0], 'bower', 'bower is first alphabetically.')
-  t.equals(list[list.length - 1], 'wordpress', 'wordpres is last alphabetically.')
+  t.equals(list[0], 'actionscript', 'actionscript is first alphabetically.')
+  t.equals(list[list.length - 1], 'xml', 'xml is last alphabetically.')
   t.equals(list.indexOf('LICENSE'), -1, 'No LICENSE')
   t.equals(list.indexOf('package.json'), -1, 'No files with dots in the name')
   t.equals(list.indexOf('.gitignore'), -1, 'No files with dots at the front')
