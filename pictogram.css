@@ -156,6 +156,10 @@
   background-image: url(https://librariesio.github.io/pictogram/html/html.png);
   background-color: transparent;
 }
+.pictogram-inqlude {
+  background-image: url(https://librariesio.github.io/pictogram/inqlude/inqlude.png);
+  background-color: transparent;
+}
 .pictogram-jam {
   background-image: url(https://librariesio.github.io/pictogram/jam/jam.png);
   background-color: transparent;
