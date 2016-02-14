@@ -152,6 +152,10 @@
   background-image: url(https://librariesio.github.io/pictogram/hex/hex.png);
   background-color: transparent;
 }
+.pictogram-homebrew {
+  background-image: url(https://librariesio.github.io/pictogram/homebrew/homebrew.png);
+  background-color: transparent;
+}
 .pictogram-html {
   background-image: url(https://librariesio.github.io/pictogram/html/html.png);
   background-color: transparent;
