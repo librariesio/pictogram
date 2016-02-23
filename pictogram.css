@@ -3,6 +3,7 @@
   height:40px;
   background: rgba(200,200,200,0.1) no-repeat;
   background-size: 100%;
+  background-position: center center;
 }
 .pictogram-lg {
   width:60px;
