@@ -3,7 +3,6 @@
   height:40px;
   background: rgba(200,200,200,0.1) no-repeat;
   background-size: 100%;
-  background-position: center center;
 }
 .pictogram-lg {
   width:60px;
@@ -51,6 +50,10 @@
 }
 .pictogram-cargo {
   background-image: url(https://librariesio.github.io/pictogram/cargo/cargo.png);
+  background-color: transparent;
+}
+.pictogram-carthage {
+  background-image: url(https://librariesio.github.io/pictogram/carthage/carthage.png);
   background-color: transparent;
 }
 .pictogram-clojars {
