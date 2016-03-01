@@ -80,6 +80,10 @@
   background-image: url(https://librariesio.github.io/pictogram/cran/cran.png);
   background-color: transparent;
 }
+.pictogram-crystal {
+  background-image: url(https://librariesio.github.io/pictogram/crystal/crystal.png);
+  background-color: transparent;
+}
 .pictogram-css {
   background-image: url(https://librariesio.github.io/pictogram/css/css.png);
   background-color: transparent;
