@@ -1,5 +1,5 @@
 {
-  "name": "shard",
+  "name": "shards",
   "source": {
     "url": "https://avatars0.githubusercontent.com/u/6539796?v=3&s=200",
     "referrer": "https://github.com/crystal-lang",
@@ -17,16 +17,16 @@
       "x-github-request-id": "B91F131F:56A6:42E13E2:56D4CA70",
       "content-length": "5510",
       "accept-ranges": "bytes",
-      "date": "Tue, 01 Mar 2016 09:27:39 GMT",
+      "date": "Tue, 01 Mar 2016 09:33:46 GMT",
       "via": "1.1 varnish",
       "connection": "close",
       "x-served-by": "cache-lhr6322-LHR",
       "x-cache": "HIT",
-      "x-cache-hits": "1",
+      "x-cache-hits": "2",
       "access-control-allow-origin": "*",
-      "x-fastly-request-id": "6abcabb21c1c8a630e7c4887d58f2a0f4b5a33c1",
-      "expires": "Tue, 01 Mar 2016 09:32:39 GMT",
-      "source-age": "38427",
+      "x-fastly-request-id": "432c66ef4c48ad83550c08460e7014413570c519",
+      "expires": "Tue, 01 Mar 2016 09:38:46 GMT",
+      "source-age": "38794",
       "vary": "Authorization,Accept-Encoding"
     }
   }
