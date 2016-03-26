@@ -2,7 +2,7 @@
   "name": "pictogram",
   "version": "1.0.5",
   "description": "Mapping human concepts to pictures.",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/olizilla/pictogram"
