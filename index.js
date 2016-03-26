@@ -15,18 +15,15 @@ module.exports.url = function (name, dir) {
 
 module.exports.list = function (dir) {
   dir = dir || __dirname
-  return fs.readdirSync(dir)
+  return fs.readdirSync(path.join(dir, 'vendor', 'assets', 'images'))
     .filter(function (item) {
       return item.indexOf('.') === -1
-    })
-    .filter(function (item) {
-      return ['LICENSE', 'node_modules'].indexOf(item) === -1
     })
 }
 
 function pathTo(name, ext, dir) {
   dir = dir || __dirname
-  if (!ext) return path.join(dir, name)
+  if (!ext) return path.join(dir, 'vendor', 'assets', 'images', name)
   var file = name + '.' + ext
-  return path.join(dir, name, file)
+  return path.join(dir, 'vendor', 'assets', 'images', name, file)
 }

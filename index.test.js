@@ -4,14 +4,14 @@ var pictorgram = require('./index.js')
 test('pictorgram.meta', function (t){
   t.plan(1)
   var ruby = pictorgram.meta('ruby')
-  var expected = require('./ruby/ruby.json')
+  var expected = require('./vendor/assets/images/ruby/ruby.json')
   t.equals(ruby, expected)
 })
 
 test('pictorgram.url', function (t){
   t.plan(1)
   var ruby = pictorgram.url('ruby')
-  var expected = require('./ruby/ruby.json').source.url
+  var expected = require('./vendor/assets/images/ruby/ruby.json').source.url
   t.equals(ruby, expected)
 })
 
