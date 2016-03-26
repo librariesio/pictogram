@@ -41,11 +41,11 @@
   background-color: transparent;
 }
 .pictogram-c\# {
-  background-image: image_url("c%23/c%23.png");
+  background-image: image_url("c-sharp/c-sharp.png");
   background-color: transparent;
 }
 .pictogram-c\+\+ {
-  background-image: image_url("c%2B%2B/c%2B%2B.png");
+  background-image: image_url("cpp/cpp.png");
   background-color: transparent;
 }
 .pictogram-cargo {
@@ -117,7 +117,7 @@
   background-color: transparent;
 }
 .pictogram-f\# {
-  background-image: image_url("f%23/f%23.png");
+  background-image: image_url("f-sharp/f-sharp.png");
   background-color: transparent;
 }
 .pictogram-fortran {
