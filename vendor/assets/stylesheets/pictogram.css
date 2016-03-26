@@ -9,318 +9,318 @@
   height:60px;
 }
 .pictogram-actionscript {
-  background-image: image_url(actionscript/actionscript.png);
+  background-image: image_url("actionscript/actionscript.png");
   background-color: transparent;
 }
 .pictogram-alcatraz {
-  background-image: image_url(alcatraz/alcatraz.png);
+  background-image: image_url("alcatraz/alcatraz.png");
   background-color: transparent;
 }
 .pictogram-apacheconf {
-  background-image: image_url(apacheconf/apacheconf.png);
+  background-image: image_url("apacheconf/apacheconf.png");
   background-color: transparent;
 }
 .pictogram-assembly {
-  background-image: image_url(assembly/assembly.png);
+  background-image: image_url("assembly/assembly.png");
   background-color: transparent;
 }
 .pictogram-atom {
-  background-image: image_url(atom/atom.png);
+  background-image: image_url("atom/atom.png");
   background-color: transparent;
 }
 .pictogram-biicode {
-  background-image: image_url(biicode/biicode.png);
+  background-image: image_url("biicode/biicode.png");
   background-color: transparent;
 }
 .pictogram-bower {
-  background-image: image_url(bower/bower.png);
+  background-image: image_url("bower/bower.png");
   background-color: transparent;
 }
 .pictogram-c {
-  background-image: image_url(c/c.png);
+  background-image: image_url("c/c.png");
   background-color: transparent;
 }
 .pictogram-c\# {
-  background-image: image_url(c%23/c%23.png);
+  background-image: image_url("c%23/c%23.png");
   background-color: transparent;
 }
 .pictogram-c\+\+ {
-  background-image: image_url(c%2B%2B/c%2B%2B.png);
+  background-image: image_url("c%2B%2B/c%2B%2B.png");
   background-color: transparent;
 }
 .pictogram-cargo {
-  background-image: image_url(cargo/cargo.png);
+  background-image: image_url("cargo/cargo.png");
   background-color: transparent;
 }
 .pictogram-carthage {
-  background-image: image_url(carthage/carthage.png);
+  background-image: image_url("carthage/carthage.png");
   background-color: transparent;
 }
 .pictogram-clojars {
-  background-image: image_url(clojars/clojars.png);
+  background-image: image_url("clojars/clojars.png");
   background-color: transparent;
 }
 .pictogram-clojure {
-  background-image: image_url(clojure/clojure.png);
+  background-image: image_url("clojure/clojure.png");
   background-color: transparent;
 }
 .pictogram-cocoapods {
-  background-image: image_url(cocoapods/cocoapods.png);
+  background-image: image_url("cocoapods/cocoapods.png");
   background-color: transparent;
 }
 .pictogram-coffeescript {
-  background-image: image_url(coffeescript/coffeescript.png);
+  background-image: image_url("coffeescript/coffeescript.png");
   background-color: transparent;
 }
 .pictogram-cpan {
-  background-image: image_url(cpan/cpan.png);
+  background-image: image_url("cpan/cpan.png");
   background-color: transparent;
 }
 .pictogram-cran {
-  background-image: image_url(cran/cran.png);
+  background-image: image_url("cran/cran.png");
   background-color: transparent;
 }
 .pictogram-crystal {
-  background-image: image_url(crystal/crystal.png);
+  background-image: image_url("crystal/crystal.png");
   background-color: transparent;
 }
 .pictogram-css {
-  background-image: image_url(css/css.png);
+  background-image: image_url("css/css.png");
   background-color: transparent;
 }
 .pictogram-d {
-  background-image: image_url(d/d.png);
+  background-image: image_url("d/d.png");
   background-color: transparent;
 }
 .pictogram-dart {
-  background-image: image_url(dart/dart.png);
+  background-image: image_url("dart/dart.png");
   background-color: transparent;
 }
 .pictogram-dub {
-  background-image: image_url(dub/dub.png);
+  background-image: image_url("dub/dub.png");
   background-color: transparent;
 }
 .pictogram-elixir {
-  background-image: image_url(elixir/elixir.png);
+  background-image: image_url("elixir/elixir.png");
   background-color: transparent;
 }
 .pictogram-elm {
-  background-image: image_url(elm/elm.png);
+  background-image: image_url("elm/elm.png");
   background-color: transparent;
 }
 .pictogram-emacs {
-  background-image: image_url(emacs/emacs.png);
+  background-image: image_url("emacs/emacs.png");
   background-color: transparent;
 }
 .pictogram-erlang {
-  background-image: image_url(erlang/erlang.png);
+  background-image: image_url("erlang/erlang.png");
   background-color: transparent;
 }
 .pictogram-f\# {
-  background-image: image_url(f%23/f%23.png);
+  background-image: image_url("f%23/f%23.png");
   background-color: transparent;
 }
 .pictogram-fortran {
-  background-image: image_url(fortran/fortran.png);
+  background-image: image_url("fortran/fortran.png");
   background-color: transparent;
 }
 .pictogram-game\ maker\ language {
-  background-image: image_url(game%20maker%20language/game%20maker%20language.png);
+  background-image: image_url("game%20maker%20language/game%20maker%20language.png");
   background-color: transparent;
 }
 .pictogram-go {
-  background-image: image_url(go/go.png);
+  background-image: image_url("go/go.png");
   background-color: transparent;
 }
 .pictogram-groovy {
-  background-image: image_url(groovy/groovy.png);
+  background-image: image_url("groovy/groovy.png");
   background-color: transparent;
 }
 .pictogram-hack {
-  background-image: image_url(hack/hack.png);
+  background-image: image_url("hack/hack.png");
   background-color: transparent;
 }
 .pictogram-hackage {
-  background-image: image_url(hackage/hackage.png);
+  background-image: image_url("hackage/hackage.png");
   background-color: transparent;
 }
 .pictogram-handlebars {
-  background-image: image_url(handlebars/handlebars.png);
+  background-image: image_url("handlebars/handlebars.png");
   background-color: transparent;
 }
 .pictogram-haskell {
-  background-image: image_url(haskell/haskell.png);
+  background-image: image_url("haskell/haskell.png");
   background-color: transparent;
 }
 .pictogram-haxe {
-  background-image: image_url(haxe/haxe.png);
+  background-image: image_url("haxe/haxe.png");
   background-color: transparent;
 }
 .pictogram-hex {
-  background-image: image_url(hex/hex.png);
+  background-image: image_url("hex/hex.png");
   background-color: transparent;
 }
 .pictogram-homebrew {
-  background-image: image_url(homebrew/homebrew.png);
+  background-image: image_url("homebrew/homebrew.png");
   background-color: transparent;
 }
 .pictogram-html {
-  background-image: image_url(html/html.png);
+  background-image: image_url("html/html.png");
   background-color: transparent;
 }
 .pictogram-inqlude {
-  background-image: image_url(inqlude/inqlude.png);
+  background-image: image_url("inqlude/inqlude.png");
   background-color: transparent;
 }
 .pictogram-jam {
-  background-image: image_url(jam/jam.png);
+  background-image: image_url("jam/jam.png");
   background-color: transparent;
 }
 .pictogram-java {
-  background-image: image_url(java/java.png);
+  background-image: image_url("java/java.png");
   background-color: transparent;
 }
 .pictogram-javascript {
-  background-image: image_url(javascript/javascript.png);
+  background-image: image_url("javascript/javascript.png");
   background-color: transparent;
 }
 .pictogram-julia {
-  background-image: image_url(julia/julia.png);
+  background-image: image_url("julia/julia.png");
   background-color: transparent;
 }
 .pictogram-livescript {
-  background-image: image_url(livescript/livescript.png);
+  background-image: image_url("livescript/livescript.png");
   background-color: transparent;
 }
 .pictogram-lua {
-  background-image: image_url(lua/lua.png);
+  background-image: image_url("lua/lua.png");
   background-color: transparent;
 }
 .pictogram-make {
-  background-image: image_url(make/make.png);
+  background-image: image_url("make/make.png");
   background-color: transparent;
 }
 .pictogram-makefile {
-  background-image: image_url(makefile/makefile.png);
+  background-image: image_url("makefile/makefile.png");
   background-color: transparent;
 }
 .pictogram-maven {
-  background-image: image_url(maven/maven.png);
+  background-image: image_url("maven/maven.png");
   background-color: transparent;
 }
 .pictogram-meteor {
-  background-image: image_url(meteor/meteor.png);
+  background-image: image_url("meteor/meteor.png");
   background-color: transparent;
 }
 .pictogram-nimble {
-  background-image: image_url(nimble/nimble.png);
+  background-image: image_url("nimble/nimble.png");
   background-color: transparent;
 }
 .pictogram-nimrod {
-  background-image: image_url(nimrod/nimrod.png);
+  background-image: image_url("nimrod/nimrod.png");
   background-color: transparent;
 }
 .pictogram-npm {
-  background-image: image_url(npm/npm.png);
+  background-image: image_url("npm/npm.png");
   background-color: transparent;
 }
 .pictogram-nuget {
-  background-image: image_url(nuget/nuget.png);
+  background-image: image_url("nuget/nuget.png");
   background-color: transparent;
 }
 .pictogram-packagist {
-  background-image: image_url(packagist/packagist.png);
+  background-image: image_url("packagist/packagist.png");
   background-color: transparent;
 }
 .pictogram-perl {
-  background-image: image_url(perl/perl.png);
+  background-image: image_url("perl/perl.png");
   background-color: transparent;
 }
 .pictogram-perl6 {
-  background-image: image_url(perl6/perl6.png);
+  background-image: image_url("perl6/perl6.png");
   background-color: transparent;
 }
 .pictogram-php {
-  background-image: image_url(php/php.png);
+  background-image: image_url("php/php.png");
   background-color: transparent;
 }
 .pictogram-platformio {
-  background-image: image_url(platformio/platformio.png);
+  background-image: image_url("platformio/platformio.png");
   background-color: transparent;
 }
 .pictogram-powershell {
-  background-image: image_url(powershell/powershell.png);
+  background-image: image_url("powershell/powershell.png");
   background-color: transparent;
 }
 .pictogram-pub {
-  background-image: image_url(pub/pub.png);
+  background-image: image_url("pub/pub.png");
   background-color: transparent;
 }
 .pictogram-puppet {
-  background-image: image_url(puppet/puppet.png);
+  background-image: image_url("puppet/puppet.png");
   background-color: transparent;
 }
 .pictogram-purescript {
-  background-image: image_url(purescript/purescript.png);
+  background-image: image_url("purescript/purescript.png");
   background-color: transparent;
 }
 .pictogram-pypi {
-  background-image: image_url(pypi/pypi.png);
+  background-image: image_url("pypi/pypi.png");
   background-color: transparent;
 }
 .pictogram-python {
-  background-image: image_url(python/python.png);
+  background-image: image_url("python/python.png");
   background-color: transparent;
 }
 .pictogram-r {
-  background-image: image_url(r/r.png);
+  background-image: image_url("r/r.png");
   background-color: transparent;
 }
 .pictogram-ruby {
-  background-image: image_url(ruby/ruby.png);
+  background-image: image_url("ruby/ruby.png");
   background-color: transparent;
 }
 .pictogram-rubygems {
-  background-image: image_url(rubygems/rubygems.png);
+  background-image: image_url("rubygems/rubygems.png");
   background-color: transparent;
 }
 .pictogram-rust {
-  background-image: image_url(rust/rust.png);
+  background-image: image_url("rust/rust.png");
   background-color: transparent;
 }
 .pictogram-scala {
-  background-image: image_url(scala/scala.png);
+  background-image: image_url("scala/scala.png");
   background-color: transparent;
 }
 .pictogram-scheme {
-  background-image: image_url(scheme/scheme.png);
+  background-image: image_url("scheme/scheme.png");
   background-color: transparent;
 }
 .pictogram-shards {
-  background-image: image_url(shards/shards.png);
+  background-image: image_url("shards/shards.png");
   background-color: transparent;
 }
 .pictogram-sublime {
-  background-image: image_url(sublime/sublime.png);
+  background-image: image_url("sublime/sublime.png");
   background-color: transparent;
 }
 .pictogram-swift {
-  background-image: image_url(swift/swift.png);
+  background-image: image_url("swift/swift.png");
   background-color: transparent;
 }
 .pictogram-tex {
-  background-image: image_url(tex/tex.png);
+  background-image: image_url("tex/tex.png");
   background-color: transparent;
 }
 .pictogram-typescript {
-  background-image: image_url(typescript/typescript.png);
+  background-image: image_url("typescript/typescript.png");
   background-color: transparent;
 }
 .pictogram-wordpress {
-  background-image: image_url(wordpress/wordpress.png);
+  background-image: image_url("wordpress/wordpress.png");
   background-color: transparent;
 }
 .pictogram-xml {
-  background-image: image_url(xml/xml.png);
+  background-image: image_url("xml/xml.png");
   background-color: transparent;
 }
