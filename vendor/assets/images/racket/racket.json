@@ -1,0 +1,32 @@
+{
+  "name": "racket",
+  "source": {
+    "url": "https://avatars2.githubusercontent.com/u/232371?v=3&s=200",
+    "referrer": "https://github.com/racket",
+    "headers": {
+      "cache-control": "max-age=300",
+      "content-security-policy": "default-src 'none'",
+      "content-type": "image/png",
+      "last-modified": "Fri, 12 Oct 2012 20:49:30 GMT",
+      "strict-transport-security": "max-age=31557600",
+      "timing-allow-origin": "https://github.com",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "deny",
+      "x-xss-protection": "1; mode=block",
+      "x-github-request-id": "17EB2B24:3853:DD76F0:575E52ED",
+      "content-length": "17144",
+      "accept-ranges": "bytes",
+      "date": "Mon, 13 Jun 2016 06:30:17 GMT",
+      "via": "1.1 varnish",
+      "connection": "close",
+      "x-served-by": "cache-ams4146-AMS",
+      "x-cache": "HIT",
+      "x-cache-hits": "1",
+      "access-control-allow-origin": "*",
+      "x-fastly-request-id": "601a1e630631172f1e59e681a0f5891e3a152719",
+      "expires": "Mon, 13 Jun 2016 06:35:17 GMT",
+      "source-age": "12",
+      "vary": "Authorization,Accept-Encoding"
+    }
+  }
+}

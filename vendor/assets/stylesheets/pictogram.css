@@ -296,6 +296,10 @@
   background-image: image_url("r/r.png");
   background-color: transparent;
 }
+.pictogram-racket {
+  background-image: image_url("racket/racket.png");
+  background-color: transparent;
+}
 .pictogram-ruby {
   background-image: image_url("ruby/ruby.png");
   background-color: transparent;
