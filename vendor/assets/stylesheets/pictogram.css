@@ -88,6 +88,10 @@
   background-image: image_url("css/css.png");
   background-color: transparent;
 }
+.pictogram-cucumber {
+  background-image: image_url("cucumber/cucumber.png");
+  background-color: transparent;
+}
 .pictogram-d {
   background-image: image_url("d/d.png");
   background-color: transparent;
