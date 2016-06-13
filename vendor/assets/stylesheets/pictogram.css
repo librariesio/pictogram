@@ -312,6 +312,10 @@
   background-image: image_url("scala/scala.png");
   background-color: transparent;
 }
+.pictogram-saltstack {
+  background-image: image_url("saltstack/saltstack.png");
+  background-color: transparent;
+}
 .pictogram-scheme {
   background-image: image_url("scheme/scheme.png");
   background-color: transparent;
