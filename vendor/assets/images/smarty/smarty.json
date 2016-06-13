@@ -1,0 +1,33 @@
+{
+  "name": "smarty",
+  "source": {
+    "url": "https://avatars2.githubusercontent.com/u/3492426?v=3&s=200",
+    "referrer": "https://github.com/smarty-php",
+    "headers": {
+      "cache-control": "max-age=300",
+      "content-security-policy": "default-src 'none'",
+      "content-type": "image/gif",
+      "etag": "\"0df71f098e0ce9c13a743d6c41cd55f2a3487c37\"",
+      "last-modified": "Thu, 11 Dec 2014 04:43:18 GMT",
+      "strict-transport-security": "max-age=31557600",
+      "timing-allow-origin": "https://github.com",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "deny",
+      "x-xss-protection": "1; mode=block",
+      "x-github-request-id": "B91F1118:1FF5:1C55EB3:57541B78",
+      "content-length": "858",
+      "accept-ranges": "bytes",
+      "date": "Mon, 13 Jun 2016 06:14:07 GMT",
+      "via": "1.1 varnish",
+      "connection": "close",
+      "x-served-by": "cache-fra1230-FRA",
+      "x-cache": "HIT",
+      "x-cache-hits": "1",
+      "access-control-allow-origin": "*",
+      "x-fastly-request-id": "330bbf25916dd694d14a5793828dc94f47d8adbe",
+      "expires": "Mon, 13 Jun 2016 06:19:07 GMT",
+      "source-age": "668598",
+      "vary": "Authorization,Accept-Encoding"
+    }
+  }
+}
