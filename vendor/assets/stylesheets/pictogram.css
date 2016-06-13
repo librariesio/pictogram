@@ -60,6 +60,10 @@
   background-image: image_url("carthage/carthage.png");
   background-color: transparent;
 }
+.pictogram-cirru {
+  background-image: image_url("cirru/cirru.png");
+  background-color: transparent;
+}
 .pictogram-clojars {
   background-image: image_url("clojars/clojars.png");
   background-color: transparent;
