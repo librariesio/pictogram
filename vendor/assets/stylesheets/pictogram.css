@@ -28,6 +28,10 @@
   background-image: image_url("atom/atom.png");
   background-color: transparent;
 }
+.pictogram-arduino {
+  background-image: image_url("arduino/arduino.png");
+  background-color: transparent;
+}
 .pictogram-biicode {
   background-image: image_url("biicode/biicode.png");
   background-color: transparent;
