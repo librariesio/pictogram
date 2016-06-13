@@ -316,6 +316,10 @@
   background-image: image_url("typescript/typescript.png");
   background-color: transparent;
 }
+.pictogram-vue {
+  background-image: image_url("vue/vue.png");
+  background-color: transparent;
+}
 .pictogram-wordpress {
   background-image: image_url("wordpress/wordpress.png");
   background-color: transparent;
