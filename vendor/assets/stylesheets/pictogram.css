@@ -144,6 +144,10 @@
   background-image: image_url("go/go.png");
   background-color: transparent;
 }
+.pictogram-gosu {
+  background-image: image_url("gosu/gosu.png");
+  background-color: transparent;
+}
 .pictogram-groovy {
   background-image: image_url("groovy/groovy.png");
   background-color: transparent;
