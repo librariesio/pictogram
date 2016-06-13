@@ -192,6 +192,10 @@
   background-image: image_url("julia/julia.png");
   background-color: transparent;
 }
+.pictogram-jupyter\ notebook {
+  background-image: image_url("jupyter%20notebook/jupyter%20notebook.png");
+  background-color: transparent;
+}
 .pictogram-livescript {
   background-image: image_url("livescript/livescript.png");
   background-color: transparent;
