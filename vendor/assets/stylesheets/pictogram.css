@@ -248,6 +248,10 @@
   background-image: image_url("nuget/nuget.png");
   background-color: transparent;
 }
+.pictogram-ocaml {
+  background-image: image_url("ocaml/ocaml.png");
+  background-color: transparent;
+}
 .pictogram-packagist {
   background-image: image_url("packagist/packagist.png");
   background-color: transparent;
