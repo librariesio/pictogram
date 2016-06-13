@@ -224,6 +224,10 @@
   background-image: image_url("makefile/makefile.png");
   background-color: transparent;
 }
+.pictogram-matlab {
+  background-image: image_url("matlab/matlab.png");
+  background-color: transparent;
+}
 .pictogram-maven {
   background-image: image_url("maven/maven.png");
   background-color: transparent;
