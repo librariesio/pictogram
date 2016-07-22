@@ -352,6 +352,10 @@
   background-image: image_url("swift/swift.png");
   background-color: transparent;
 }
+.pictogram-swiftpm {
+  background-image: image_url("swift/swift.png");
+  background-color: transparent;
+}
 .pictogram-tex {
   background-image: image_url("tex/tex.png");
   background-color: transparent;
