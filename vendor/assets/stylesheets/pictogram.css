@@ -256,6 +256,10 @@
   background-image: image_url("nuget/nuget.png");
   background-color: transparent;
 }
+.pictogram-nuget {
+  background-image: image_url("objective-c/objective-c.png");
+  background-color: transparent;
+}
 .pictogram-ocaml {
   background-image: image_url("ocaml/ocaml.png");
   background-color: transparent;
