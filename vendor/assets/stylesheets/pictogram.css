@@ -172,6 +172,10 @@
   background-image: image_url("haxe/haxe.png");
   background-color: transparent;
 }
+.pictogram-haxelib {
+  background-image: image_url("haxelib/haxelib.png");
+  background-color: transparent;
+}
 .pictogram-hex {
   background-image: image_url("hex/hex.png");
   background-color: transparent;

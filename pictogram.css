@@ -156,6 +156,10 @@
   background-image: url(https://librariesio.github.io/pictogram/haxe/haxe.png);
   background-color: transparent;
 }
+.pictogram-haxelib {
+  background-image: url(https://librariesio.github.io/pictogram/haxelib/haxelib.png);
+  background-color: transparent;
+}
 .pictogram-hex {
   background-image: url(https://librariesio.github.io/pictogram/hex/hex.png);
   background-color: transparent;
@@ -324,4 +328,3 @@
   background-image: url(https://librariesio.github.io/pictogram/xml/xml.png);
   background-color: transparent;
 }
-
