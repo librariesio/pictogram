@@ -72,6 +72,10 @@
   background-image: image_url("clojure/clojure.png");
   background-color: transparent;
 }
+.pictogram-conda {
+  background-image: image_url("conda/conda.png");
+  background-color: transparent;
+}
 .pictogram-cocoapods {
   background-image: image_url("cocoapods/cocoapods.png");
   background-color: transparent;
