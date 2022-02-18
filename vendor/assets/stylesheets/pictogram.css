@@ -356,6 +356,10 @@
   background-image: image_url("smarty/smarty.gif");
   background-color: transparent;
 }
+.pictogram-spack {
+  background-image: image_url("spack/spack.png");
+  background-color: transparent;
+}
 .pictogram-sublime {
   background-image: image_url("sublime/sublime.png");
   background-color: transparent;
